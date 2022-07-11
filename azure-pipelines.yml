@@ -82,7 +82,7 @@ stages:
     environment: dev
     variables:
     - group: Release
-    strategy:
+    strategy: 
       runOnce:
         deploy:
           steps:
